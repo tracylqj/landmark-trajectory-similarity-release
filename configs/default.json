@@ -1,0 +1,26 @@
+{
+  "seed": 43,
+  "split_seed": 42,
+  "landmark_seed": 20260914,
+  "num_landmarks": 32,
+  "hidden_dim": 128,
+  "num_heads": 4,
+  "ffn_dim": 512,
+  "num_layers": 1,
+  "epochs": 10,
+  "batch_size": 16,
+  "micro_batch_size": 4,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.0001,
+  "gradient_clip": 5.0,
+  "soft_weight": 0.05,
+  "soft_temperature": 0.05,
+  "netdtw_temperature_km": 1.0,
+  "tp_temperature_km": 0.1,
+  "main_candidates": 8,
+  "soft_pairs": 2,
+  "min_segments": 9,
+  "max_segments": 99,
+  "route_overlap_threshold": 0.8
+}
+

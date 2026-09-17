@@ -1,0 +1,48 @@
+{
+  "porto": {
+    "city": "porto",
+    "trajectory_count": 28454,
+    "road_segment_count": 112809,
+    "trajectory_columns": [
+      "trajectory_id",
+      "cpath"
+    ],
+    "network_columns": [
+      "id",
+      "source",
+      "target",
+      "length",
+      "geometry"
+    ],
+    "network_crs": "EPSG:32629",
+    "files": {
+      "trajectories.csv": "b67b8da8ae81c08133a5fe88d7a3f8d5b85b24736fa409dcd1d44ce4b774e445",
+      "network.gpkg": "6f6ed8957310cced732dbb5c388645b0d62c61855c1cf7ee6b79ab2e48f7cadc"
+    },
+    "archive_sha256": "62778db2a0afb96014c722e19c3a04d7e9ebbe8101869af141f0c933192358bc",
+    "archive_bytes": 11166099
+  },
+  "chengdu": {
+    "city": "chengdu",
+    "trajectory_count": 26903,
+    "road_segment_count": 13628,
+    "trajectory_columns": [
+      "trajectory_id",
+      "cpath"
+    ],
+    "network_columns": [
+      "id",
+      "source",
+      "target",
+      "length",
+      "geometry"
+    ],
+    "network_crs": "EPSG:32648",
+    "files": {
+      "trajectories.csv": "97a25e18d2208b1ab074bccbdeeba0040183726a1e793b4b5edb781591d7c698",
+      "network.gpkg": "a61d1473a584ba3a3c8e3b392be6254e0e6cc47bdd60202f7cc5d2a3aafbfade"
+    },
+    "archive_sha256": "4c3be931804f6978853e3d610844cecbd006386aa3e3240ebfee72db868868fe",
+    "archive_bytes": 1765211
+  }
+}
